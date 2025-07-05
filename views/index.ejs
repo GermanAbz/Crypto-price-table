@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Crypto Price Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="window one">
+      <div class="marCap">
+        Crypto Market Capitalization = &nbsp;<span style="color: #F3C623"> <%= marCap %> </span> &nbsp; Trillion USD
+      </div>
+      <div class="vol24">
+        Trading Volume 24h = &nbsp;<span style="color: #F3C623"><%= vol24 %></span> &nbsp; Billion USD
+      </div>
+    </div>
+    <div class="window two">
+    </div>
+    <div class="window three">
+      <div class="btc">
+        <div class="btc1">
+          BTC Price = <span style="color: #F3C623"><%= bitPrice %></span> USD
+        </div>
+        <div class="btc2">
+          BTC Market Cap = <span style="color: #FA812F"><%= bitCap %></span> Trilion USD
+        </div>
+      </div>
+      <div class="eth">
+        <div class="eth1">
+          ETH Price = <span style="color: #F3C623"><%= ethPrice %></span> USD
+        </div>
+        <div class="eth2">
+          ETH Market Cap = <span style="color: #FA812F"><%= ethCap %></span> Billion USD
+        </div>
+      </div>
+    </div>
+    <div class="window four">
+      <div class="bitDom">
+        Bitcoin dominance percentage = &nbsp;<span style="color: #F3C623"><%= bitDom %></span> &nbsp; %
+      </div>
+      <div class="cryNum">
+        Cryptocurrencies number = &nbsp;<span style="color: #F3C623"><%= cryNum %></span>
+      </div>
+    </div>
+    <div class="window five">
+    </div>
+    <div class="window six">
+      <div class="sol">
+        <div class="sol1">
+          SOL Price = <span style="color: #F3C623"><%= solPrice %></span> USD
+        </div>
+        <div class="sol2">
+          SOL Market Cap = <span style="color: #FA812F"><%= solCap %></span> Billion USD
+        </div>
+      </div>
+      <div class="sui">
+        <div class="sui1">
+          SUI Price = <span style="color: #F3C623"><%= suiPrice %></span> USD
+        </div>
+        <div class="sui2">
+          SUI Market Cap = <span style="color: #FA812F"><%= suiCap %></span> Billion USD
+        </div>
+      </div>
+    </div>
+    <div class="window seven">
+    </div>
+    <div class="window eight">
+    </div>
+    <div class="window nine">
+      <div class="usdt">
+        <div class="usdt1">
+          USDT Price = <span style="color: #F3C623"><%= usdtPrice %></span> USD
+        </div>
+        <div class="usdt2">
+          USDT Market Cap = <span style="color: #FA812F"><%= usdtCap %></span> Billion USD
+        </div>
+      </div>
+      <div class="usdc">
+        <div class="usdc1">
+          USDC Price = <span style="color: #F3C623"><%= usdcPrice %></span> USD
+        </div>
+        <div class="usdc2">
+          USDC Market Cap = <span style="color: #FA812F"><%= usdcCap %></span> Billion USD
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <footer>© by German Abzaletdinov</footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.background {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/background.png");
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 2.4fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.one, .four {
+  display: flex;
+  flex-direction: column;
+  font-family: "Tektur", sans-serif;
+  font-size: 2rem;
+  color: white;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.three, .six, .nine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Tektur", sans-serif;
+  font-size: 2rem;
+  color: white;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.marCap, .vol24, .bitDom, .cryNum {
+  height: 50%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.btc, .eth, .sol, .sui, .usdt, .usdc {
+  height: 50%;
+}
+
+.btc1, .btc2, .eth1, .eth2, .sol1, .sol2, .sui1, .sui2, .usdt1, .usdt2, .usdc1, .usdc2 {
+  height: 30%;
+}
+
+
+footer {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(127, 140, 170, 0.5);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
